@@ -1,0 +1,6 @@
+msgid "Hello"
+msgstr "Hallo"
+
+msgctxt "Exclaim"
+msgid "Hello"
+msgstr "Hallo!"

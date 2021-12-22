@@ -1,0 +1,6 @@
+msgid "Hello"
+msgstr "你好"
+
+msgctxt "Exclaim"
+msgid "Hello"
+msgstr "你好！"
