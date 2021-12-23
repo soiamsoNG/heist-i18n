@@ -178,6 +178,7 @@ jobs:
           echo "    ghc-options: -Werror=missing-methods" >> cabal.project
           cat >> cabal.project <<EOF
           allow-newer: xmlhtml:bytestring
+          allow-newer: heist
 
           source-repository-package
             type:     git
