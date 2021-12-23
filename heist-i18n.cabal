@@ -44,7 +44,7 @@ maintainer:         83182235@qq.com
 -- copyright:
 category:           Web
 
-Tested-With: GHC ==8.8.4 || ==8.10.4 || ==9.0.1
+Tested-With: GHC ==8.8.4 || ==8.10.4 || ==8.10.7 || ==9.2.1
 
 extra-source-files:
     test/testcase/case1/case1.expect
