@@ -8,6 +8,6 @@ source-repository-package
     location: https://github.com/soiamsoNG/map-syntax.git
     tag: db02a8b145cce33889d4efd69bf0c7751c695c07
 
-constraints: heist >= 1
+constraints: heist >= 1, aeson >= 2
 
-allow-newer: xmlhtml:bytestring, all:transformers, all:base
+allow-newer: all:all
