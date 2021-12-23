@@ -177,6 +177,8 @@ jobs:
           echo "package heist-i18n" >> cabal.project
           echo "    ghc-options: -Werror=missing-methods" >> cabal.project
           cat >> cabal.project <<EOF
+          allow-newer: xmlhtml:bytestring
+
           source-repository-package
             type:     git
             location: https://github.com/soiamsoNG/map-syntax.git

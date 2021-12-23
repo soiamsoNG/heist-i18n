@@ -95,7 +95,7 @@ test-suite spec
     , bytestring, xmlhtml, map-syntax
     , text, mtl, directory, filepath
     , i18n, containers
-    , unix, time, heist-i18n
+    , time, heist-i18n
   other-modules:
     Heist.Splices.I18nSpec
   default-language: Haskell2010
