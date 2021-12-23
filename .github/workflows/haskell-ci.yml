@@ -178,7 +178,7 @@ jobs:
           echo "    ghc-options: -Werror=missing-methods" >> cabal.project
           cat >> cabal.project <<EOF
           constraints: heist >= 1
-          constraints: aeson >= 2
+          constraints: aeson >= 1.5 && < 2
           allow-newer: all:all
 
           source-repository-package
