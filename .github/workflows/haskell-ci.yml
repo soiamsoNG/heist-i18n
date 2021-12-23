@@ -177,7 +177,9 @@ jobs:
           echo "package heist-i18n" >> cabal.project
           echo "    ghc-options: -Werror=missing-methods" >> cabal.project
           cat >> cabal.project <<EOF
-          allow-newer: all
+          allow-newer: all:bytestring
+          allow-newer: all:transformers
+          allow-newer: all:base
 
           source-repository-package
             type:     git
