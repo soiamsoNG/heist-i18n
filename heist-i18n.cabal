@@ -73,7 +73,7 @@ library
 
     -- Other library packages from which modules are imported.
     build-depends:    base ==4.*, i18n, containers,
-                      text, filepath, directory, xmlhtml, mtl, heist, lens, bytestring
+                      text, filepath, directory, xmlhtml, mtl, heist, lens
 
     -- Directories containing source files.
     hs-source-dirs:   src
@@ -95,7 +95,7 @@ test-suite spec
     , bytestring, xmlhtml, map-syntax
     , text, mtl, directory, filepath
     , i18n, containers
-    , time, heist-i18n, bytestring
+    , time, heist-i18n
   other-modules:
     Heist.Splices.I18nSpec
   default-language: Haskell2010
